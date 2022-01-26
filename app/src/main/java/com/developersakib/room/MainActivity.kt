@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
 
         GlobalScope.launch {
             database.studentDao().insertStudent(Student(0, "Al-Amin", 21))
-            database1.teacherdao().inserData(Teacher(0, "Al-Amin", "sakib"))
+            database1.teacherdao().insertData(Teacher(0, "Al-Amin", "sakib"))
             database2.informationdao().inserdata(Information(0,"Nasim","Dinajpur"))
 
         }
