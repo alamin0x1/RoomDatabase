@@ -1,3 +1,5 @@
+dependencies{
+   
    ```
     def roomVersion = "2.4.1"
     id 'kotlin-kapt'
@@ -6,5 +8,6 @@
     implementation("androidx.room:room-ktx:$roomVersion")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0")
-    
     ```
+   
+}
